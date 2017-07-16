@@ -1,0 +1,45 @@
+body {
+    color: #000;
+    font: 300 100.1% "Helvetica Neue", Helvetica, "Arial Unicode MS", Arial, sans-serif;
+}
+
+#chart{
+ transform: rotate(-45deg);
+}
+#legends{
+  position: absolute;
+  top: 600px;
+  left: 230px;
+}
+.lgd{
+  height: 10px;
+  width: 10px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  margin:0 20px;
+}
+
+.win{
+  background-color: green;
+}
+
+.tie{
+  background-color: brown;
+}
+
+.loss{
+  background-color: red;
+}
+.tooltip{
+  
+}
+#chart {
+    color: #333;
+    left: 50%;
+    margin: -150px 0 0 -400px;
+    position: absolute;
+    top: 40%;
+    width: 400px;
+    width: 400px;
+
+}

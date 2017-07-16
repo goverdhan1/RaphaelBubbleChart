@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Raphaël Bubble Chart</title>
+  <link rel="stylesheet" href="css/styles.css" type="text/css" media="screen">
+  <script src="node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
+  <script src="node_modules/angular/angular.min.js" type="text/javascript"></script>
+  <script src="node_modules/raphael/raphael.min.js" type="text/javascript"></script>
+</head>
+    <body ng-controller="home">
+        <div id="chart"></div>
+        <div id="legends"><span class="lgd win"></span>Win <span class="lgd tie"></span>Tie <span class="lgd loss"></span>Losses </div>
+        <script src="app.js" type="text/javascript"></script>
+        <script src="js/controllers/home-ctrl.js" type="text/javascript"></script>
+        <script src="js/services/details.js" type="text/javascript"></script>
+</body>
+</html>
